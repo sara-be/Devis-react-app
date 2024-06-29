@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.headerQF {
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 38px;
+}
+
+.react-international-phone-input-container .react-international-phone-input {
+    border: none;
+    font-size: var(--react-international-phone-font-size, 16px);
+
+}
+
+.react-international-phone-input-container .react-international-phone-country-selector-button {
+    border: none;
+}
+
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}

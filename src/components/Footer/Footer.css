@@ -1,0 +1,23 @@
+.bi{
+    width: 0px;
+    color: #ff8884;
+}
+.footer{
+    background-color: #ef4d48;
+
+}
+.footer a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .list-unstyled li {
+    text-align: justify; 
+  }
+  .address-link {
+    font-size: 14px;
+  }
+.footer-header{
+    
+    color: #ff7070;
+}  

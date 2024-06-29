@@ -1,0 +1,36 @@
+/* Preloader container */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Background color for the preloader */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure the preloader is on top of other content */
+  }
+  
+  /* Text container styles (optional) */
+  .text-container {
+    text-align: center;
+  }
+  
+  /* Image styles with pulse zoom animation */
+  .zoom-pulse {
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+    animation: pulseAnimation 2s linear infinite; /* Animation for pulse zoom effect */
+  }
+  
+  /* Keyframes for the pulse zoom animation */
+  @keyframes pulseAnimation {
+    0%, 100% {
+      transform: scale(1); /* Initial and final scale (no zoom) */
+    }
+    50% {
+      transform: scale(1.2); /* Scale for zoom in */
+    }
+  }
+  
